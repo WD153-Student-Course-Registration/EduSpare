@@ -1,0 +1,4 @@
+Introduction to Programming|A|Spring 2024
+Calculus I|B+|Fall 2023
+Physics 101|A-|Fall 2023
+Digital Logic|B|Spring 2024
