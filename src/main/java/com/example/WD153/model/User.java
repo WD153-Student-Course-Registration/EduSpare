@@ -1,4 +1,4 @@
-package com.example.janani.model;
+package com.example.WD153.model;
 
 import java.io.Serializable;
 

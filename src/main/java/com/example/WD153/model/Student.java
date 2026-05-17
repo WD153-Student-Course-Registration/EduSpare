@@ -1,4 +1,4 @@
-package com.example.janani.model;
+package com.example.WD153.model;
 
 public class Student extends User {
     private String studentId;
