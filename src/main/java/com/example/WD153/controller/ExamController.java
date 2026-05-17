@@ -1,0 +1,46 @@
+package com.example.WD153.controller;
+
+import com.example.WD153.model.Course;
+import com.example.WD153.model.Exam;
+import com.example.WD153.model.User;
+import com.example.WD153.service.CourseService;
+import com.example.WD153.service.ExamService;
+import jakarta.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class ExamController {
+
+    @Autowired
+    private ExamService examService;
+
+    @Autowired
+    private CourseService courseService;
+
+    @GetMapping("/exam")
+    public String showExamPage(@RequestParam("courseCode") String courseCode, HttpSession session, Model model) {
+        User user = (User) session.getAttribute("user");
+        if (user == null || !"STUDENT".equals(user.getRole())) {
+            return "redirect:/login";
+        }
+        
+        Course course = courseService.getAllCourses().stream()
+                .filter(c -> c.getCode().equals(courseCode))
+                .findFirst()
+                .orElse(null);
+                
+        if (course == null) {
+            return "redirect:/dashboard";
+        }
+        
+        model.addAttribute("course", course);
+        model.addAttribute("user", user);
+        return "exam";
+    }
+    
+}
