@@ -9,8 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>janani</artifactId>
+	<artifactId>WD153</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>janani</name>
 	<description>Backend for Janani Student Portal</description>
 	<properties>

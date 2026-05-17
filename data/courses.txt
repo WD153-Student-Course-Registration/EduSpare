@@ -1,4 +1,7 @@
-CS101|Introduction to Programming|Dr. Smith|3
-CS202|Data Structures and Algorithms|Dr. Johnson|4
-MATH301|Linear Algebra|Dr. Williams|3
-ENG105|Technical Writing|Prof. Brown|2
+CS3010|Data Structures & Algorithms|Dr. Brian Sadeesha|Learn the fundamentals of Data Structures & Algorithms|4|40
+NET2040|Network Security|Dr. Alan Turing|Learn the fundamentals of Network Security|3|30
+DBMS105|Database Management Systems|Prof. Grace Hopper|Learn the fundamentals of Database Management Systems|3|45
+MATH101|Advanced Calculus|Dr. Isaac Newton|Learn the fundamentals of Advanced Calculus|2|60
+SOFT402|Software Engineering|Prof. Janani Sandunika|Learn the fundamentals of Software Engineering|4|35
+AI5050|Artificial Intelligence|Dr. Brian Sadeesha|Learn the fundamentals of Artificial Intelligence|3|25
+IT1020|oop|Dr. Venuka Samadith|Learn the fundamentals of oop|4|16
