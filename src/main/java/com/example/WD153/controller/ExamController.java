@@ -42,5 +42,15 @@ public class ExamController {
         model.addAttribute("user", user);
         return "exam";
     }
-    
+    @PostMapping("/SubmitExam")
+    public String submitExam(@RequestParam("courseCode") String courseCode,
+                             @RequestParam("marks") double marks,
+                             HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        if (user != null && "STUDENT".equals(user.getRole())) {
+            Exam exam = new Exam(user.getEmail(), courseCode, "Final Assessment", marks, 100.0);
+            examService.saveExam(exam);
+        }
+        return "redirect:/dashboard";
+    }
 }
