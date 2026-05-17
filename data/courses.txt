@@ -1,4 +1,0 @@
-CS101|Introduction to Programming|Dr. Smith|3
-CS202|Data Structures and Algorithms|Dr. Johnson|4
-MATH301|Linear Algebra|Dr. Williams|3
-ENG105|Technical Writing|Prof. Brown|2
