@@ -1,11 +1,21 @@
+// Overall Purpose: This file defines the Exam model, representing a student's performance or result in a specific course examination.
 package com.example.WD153.model;
 
+/**
+ * The Exam class encapsulates the data for a student's examination, 
+ * including their email, the course, the exam name, and the marks obtained.
+ */
+
 public class Exam {
-    private String studentEmail;
-    private String courseCode;
-    private String examName;
-    private double marks;
-    private double maxMarks;
+    private String studentEmail; //Identifies the student taking the exam
+    private String courseCode;// Identifies the associated course
+    private String examName;// The name or type of the exam (e.g., "Final Assessment")
+    private double marks;// Obtained marks
+    private double maxMarks;// Total possible marks
+
+    /**
+     * Default constructor for instantiation without initial values.
+     */
 
     public Exam() {}
 
@@ -31,6 +41,11 @@ public class Exam {
 
     public double getMaxMarks() { return maxMarks; }
     public void setMaxMarks(double maxMarks) { this.maxMarks = maxMarks; }
+
+     /**
+     * Calculates the percentage score based on obtained and maximum marks.
+     * @return The percentage as a double
+     */
 
    
     public double getPercentage() {
