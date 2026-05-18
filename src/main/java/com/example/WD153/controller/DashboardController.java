@@ -61,7 +61,7 @@ public class DashboardController {
             model.addAttribute("users", userService.getAllUsers());
             model.addAttribute("availableCourses", courseService.getAllCourses());
             return "dashboard";
-       
+        } else {
             // Students need a personalized view of their enrollments and academic standing
             Student student = (Student) user;
             List<Enrollment> enrollments = enrollmentService.getStudentEnrollments(student.getEmail());
