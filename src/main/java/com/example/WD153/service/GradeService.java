@@ -103,13 +103,7 @@ public class GradeService {
         }
     }
 
-    /**
-     * Calculates a dynamic GPA based purely on recent exam percentage scores.
-     * This is the primary method used by the dashboard.
-     * @param exams List of student's completed exams
-     * @return GPA on a 4.0 scale
-     */
-
+  
     public double calculateGPAFromExams(List<Exam> exams) {
         if (exams.isEmpty()) return 0.0;
 
