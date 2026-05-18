@@ -15,10 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * DashboardController aggregates various models (User, Course, Exam, Enrollment)
- * to populate the complex views required by the dashboard.
- */
+
 
 @Controller
 public class DashboardController {
