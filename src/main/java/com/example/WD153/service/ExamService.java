@@ -31,6 +31,11 @@ public class ExamService {
             e.printStackTrace();
         }
     }
+    
+    /**
+     * Saves a new exam record to the text file.
+     * Uses append mode so previous records are not overwritten.
+     */
 
     public void saveExam(Exam exam) {
         try (FileWriter fw = new FileWriter(DATA_FILE, true);
