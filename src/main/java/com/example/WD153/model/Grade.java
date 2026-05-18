@@ -1,4 +1,4 @@
-
+// Overall Purpose: This file defines the Grade model, representing an academic letter grade assigned to a student for a course.
 package com.example.WD153.model;
 
 /**
