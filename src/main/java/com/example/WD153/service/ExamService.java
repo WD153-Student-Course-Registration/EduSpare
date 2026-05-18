@@ -76,6 +76,33 @@ public class ExamService {
         }
     }
 
+    /**
+     * Retrieves all exam records from the text file.
+     * Parses each line and creates Exam objects.
+     */
+
+    public List<Exam> getAllExams() {
+        List<Exam> exams = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(DATA_FILE))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (line.trim().isEmpty()) continue;
+                String[] parts = line.split("\\|");
+                if (parts.length >= 5) {
+                    // Reconstruct Exam object from the delimited string
+                    exams.add(new Exam(parts[0], parts[1], parts[2], 
+                            Double.parseDouble(parts[3]), 
+                            Double.parseDouble(parts[4])));
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return exams;
+    }
+
+
+
     
 
 
