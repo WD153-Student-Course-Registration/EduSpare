@@ -18,19 +18,21 @@ public class User implements Serializable {
     }
     // This is a parameterized constructor. It allows you to create a new User object and set all of its data (id, name, email, password, role) at the exact moment of creation.
     public User(Long id, String fullname, String email, String password, String role) {
+        // The 'this' keyword refers to the current object. This line takes the 'id' passed into the constructor and assigns it to the object's internal 'id' variable.
         this.id = id;
-        this.fullname = fullname;
-        this.email = email;
-        this.password = password;
-        this.role = role;
+        // Assigns the passed 'fullname' parameter to the object's internal 'fullname' variable.
+        this.fullname = fullname
+        this.email = email;;// Assigns the passed 'email' parameter to the object's internal 'email' variable.
+        this.password = password;// Assigns the passed 'password' parameter to the object's internal 'password' variable.
+        this.role = role;// Assigns the passed 'role' parameter to the object's internal 'role' variable.
     }
 
-    public Long getId() {
-        return id;
+    public Long getId() {// A public "getter" method. It allows other parts of the application to read the protected 'id' variable.
+        return id;// Returns the current value stored in the object's 'id' variable.
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setId(Long id) {// A public "setter" method. It allows other parts of the application to change the value of the protected 'id' variable.
+        this.id = id;// Takes the new 'id' provided and updates the object's internal 'id' variable.
     }
 
     public String getFullname() {
