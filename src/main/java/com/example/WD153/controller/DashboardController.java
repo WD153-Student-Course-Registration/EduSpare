@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
  * to populate the complex views required by the dashboard.
  */
 
+
 @Controller
 public class DashboardController {
 
