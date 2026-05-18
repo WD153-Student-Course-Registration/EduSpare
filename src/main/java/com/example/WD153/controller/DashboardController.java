@@ -54,7 +54,7 @@ public class DashboardController {
             return "redirect:/login";
         }
         
-        
+         model.addAttribute("user", user);
         
         if ("ADMIN".equals(user.getRole())) {
             // Admins need a global view of users and available courses
