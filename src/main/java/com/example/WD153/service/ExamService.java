@@ -100,6 +100,15 @@ public class ExamService {
         }
         return exams;
     }
+    /**
+     * Fetches all exam results for a specific student using their email.
+     */
+    public List<Exam> getStudentExams(String email) {
+        return getAllExams().stream()
+                .filter(e -> e.getStudentEmail().equalsIgnoreCase(email))
+                .collect(Collectors.toList());
+    }
+}
 
 
 
