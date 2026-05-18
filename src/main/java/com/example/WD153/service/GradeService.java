@@ -80,6 +80,11 @@ public class GradeService {
         return totalPoints / studentGrades.size();
     }
 
+     /**
+     * Internal helper to convert a letter grade (e.g., "A-") into a numerical GPA point value.
+     */
+
+
     /**
      * Internal helper to convert a letter grade (e.g., "A-") into a numerical GPA point value.
      */
