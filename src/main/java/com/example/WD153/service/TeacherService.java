@@ -33,3 +33,17 @@ public class TeacherService {
         }
     }
 
+    /**
+     * Appends a new teacher record to the text file using a pipe delimiter.
+     */
+
+    public void saveTeacher(Teacher teacher) {
+        try (FileWriter fw = new FileWriter(DATA_FILE, true);
+             BufferedWriter bw = new BufferedWriter(fw);
+             PrintWriter out = new PrintWriter(bw)) {
+            System.out.println(String.format("%s|%s|%s", teacher.getName(), teacher.getTitle(), teacher.getDepartment()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
