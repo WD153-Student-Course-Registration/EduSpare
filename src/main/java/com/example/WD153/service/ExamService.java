@@ -52,5 +52,32 @@ public class ExamService {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Deletes a specific exam record for a student by rewriting the file without it.
+     */
+
+     public void deleteExam(String email, String courseCode) {
+        List<Exam> exams = getAllExams();
+        try (PrintWriter out = new PrintWriter(new FileWriter(DATA_FILE))) {
+            for (Exam e : exams) {
+                // If the record does not match the target, write it back
+                if (!(e.getStudentEmail().equalsIgnoreCase(email) && e.getCourseCode().equalsIgnoreCase(courseCode))) {
+                    out.println(String.format("%s|%s|%s|%.2f|%.2f",
+                            e.getStudentEmail(),
+                            e.getCourseCode(),
+                            e.getExamName(),
+                            e.getMarks(),
+                            e.getMaxMarks()));
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    
+
+
     
 
