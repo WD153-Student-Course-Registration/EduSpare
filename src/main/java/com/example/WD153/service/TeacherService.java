@@ -47,3 +47,28 @@ public class TeacherService {
         }
     }
 
+    /**
+     * Reads all teacher records from the text file.
+     * @return A list of Teacher objects.
+     */
+
+    public List<Teacher> getAllTeachers() {
+        public List<Teacher> getAllTeachers() {
+            try (BufferedReader br = new BufferedReader(new FileReader(DATA_FILE))) {
+                String line;
+                while ((line = br.readLine()) != null) {
+                    if (line.trim().isEmpty()) continue;
+                    String[] parts = line.split("\\|");
+                    if (parts.length >= 1) {
+                        String name = parts[0];
+                        String title = parts.length > 1 ? parts[1] : "Instructor";
+                        String dept = parts.length > 2 ? parts[2] : "General";
+                        teachers.add(new Teacher(name, title, dept));
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return teachers;
+        }
+
