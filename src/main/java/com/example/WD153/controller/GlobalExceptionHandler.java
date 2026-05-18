@@ -26,7 +26,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public String handleAllExceptions(Exception ex) {
-        
+        // Convert the stack trace into a readable string format
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         ex.printStackTrace(pw);
