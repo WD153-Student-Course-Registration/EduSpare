@@ -40,7 +40,8 @@ public class ExamService {
     public void saveExam(Exam exam) {
         try (FileWriter fw = new FileWriter(DATA_FILE, true);
              BufferedWriter bw = new BufferedWriter(fw);
-             PrintWriter out = new PrintWriter(bw)) { 
+             PrintWriter out = new PrintWriter(bw)) {
+            // Write exam details separated by the '|' delimiter
             out.println(String.format("%s|%s|%s|%.2f|%.2f",
                     exam.getStudentEmail(),
                     exam.getCourseCode(),
@@ -51,4 +52,5 @@ public class ExamService {
             e.printStackTrace();
         }
     }
+    
 
