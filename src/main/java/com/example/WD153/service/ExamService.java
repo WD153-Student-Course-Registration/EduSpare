@@ -31,3 +31,19 @@ public class ExamService {
             e.printStackTrace();
         }
     }
+
+    public void saveExam(Exam exam) {
+        try (FileWriter fw = new FileWriter(DATA_FILE, true);
+             BufferedWriter bw = new BufferedWriter(fw);
+             PrintWriter out = new PrintWriter(bw)) { 
+            out.println(String.format("%s|%s|%s|%.2f|%.2f",
+                    exam.getStudentEmail(),
+                    exam.getCourseCode(),
+                    exam.getExamName(),
+                    exam.getMarks(),
+                    exam.getMaxMarks()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
