@@ -85,6 +85,10 @@ public class GradeService {
      */
 
 
+    /**
+     * Internal helper to convert a letter grade (e.g., "A-") into a numerical GPA point value.
+     */
+
     private double convertGradeToPoints(String gradeValue) {
         if (gradeValue == null) return 0.0;
         switch (gradeValue.trim().toUpperCase()) {

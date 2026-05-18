@@ -5,89 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11559c5-edc0-4456-abaa-b9bb2b9044ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/enrollments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/exams.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/teachers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/ExamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/EnrollmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/ExamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/GradeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/courseDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentProfile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teachers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/EduSphareApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/ExamController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Enrollment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Exam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/EnrollmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/ExamService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/GradeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/TeacherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Janani.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/courses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/courses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/JananiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/EduSphareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/controller/DashboardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/model/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/model/Grade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/service/DashboardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/janani/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/ExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/ExamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/EnrollmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/EnrollmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/ExamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/ExamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/GradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/GradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WD153/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/janani/JananiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/WD153/EduSphareApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/WD153/EduSphareApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/WD153/EduSphareApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/JananiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/DashboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/DashboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/Grade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/DashboardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/janani/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/janani/JananiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/WD153/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/ExamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/controller/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Enrollment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Grade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/EnrollmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/ExamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/GradeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/janani/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +76,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IT25103690"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WD153-Student-Course-Registration/EduSpare.git",
+    "accountId": "8efc2dba-9351-4e4a-b326-a881e54a82ae"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -108,6 +114,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -117,10 +124,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EduSphareApplication.executor": "Run",
     "Spring Boot.JananiApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Rebasing master",
+    "git-widget-placeholder": "Dashboard",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/brian/OneDrive/Desktop/Group Project",
     "nodejs_package_manager_path": "npm",
@@ -181,11 +190,23 @@
       <workItem from="1778554477657" duration="10003000" />
       <workItem from="1778905875771" duration="3365000" />
       <workItem from="1778991386700" duration="1633000" />
+      <workItem from="1779119650482" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
