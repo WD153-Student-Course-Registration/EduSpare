@@ -46,7 +46,6 @@ public class DashboardController {
      * Renders different data sets based on whether the logged-in user is an ADMIN or STUDENT.
      */
 
-
     @GetMapping("/dashboard")
     public String dashboard(HttpSession session, Model model) {
         User user = (User) session.getAttribute("user");
