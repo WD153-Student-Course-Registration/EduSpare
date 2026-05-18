@@ -72,3 +72,22 @@ public class TeacherService {
             return teachers;
         }
 
+         /**
+         * Removes a teacher by rewriting the text file, omitting the specific teacher by name.
+         */
+
+        public void deleteTeacher(String name) {
+            List<Teacher> teachers = getAllTeachers();
+            try (PrintWriter out = new PrintWriter(new FileWriter(DATA_FILE))) {
+                for (Teacher t : teachers) {
+                    if (!t.getName().equalsIgnoreCase(name)) {
+                        out.println(String.format("%s|%s|%s", t.getName(), t.getTitle(), t.getDepartment()));
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
