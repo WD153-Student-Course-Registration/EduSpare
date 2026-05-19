@@ -1,6 +1,6 @@
-package com.example.janani.service;
+package com.example.WD153.service;
 
-import com.example.janani.model.Course;
+import com.example.WD153.model.Course;
 import org.springframework.stereotype.Service;
 import java.io.*;
 import java.util.ArrayList;

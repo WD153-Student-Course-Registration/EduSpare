@@ -1,13 +1,13 @@
-package com.example.janani.controller;
+package com.example.WD153.controller;
 
-import com.example.janani.model.Course;
-import com.example.janani.model.Enrollment;
-import com.example.janani.model.User;
-import com.example.janani.model.Teacher;
-import com.example.janani.service.CourseService;
-import com.example.janani.service.EnrollmentService;
-import com.example.janani.service.ExamService;
-import com.example.janani.service.TeacherService;
+import com.example.WD153.model.Course;
+import com.example.WD153.model.Enrollment;
+import com.example.WD153.model.User;
+import com.example.WD153.model.Teacher;
+import com.example.WD153.service.CourseService;
+import com.example.WD153.service.EnrollmentService;
+import com.example.WD153.service.ExamService;
+import com.example.WD153.service.TeacherService;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
