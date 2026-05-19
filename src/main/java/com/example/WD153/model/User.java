@@ -21,7 +21,7 @@ public class User implements Serializable {
         // The 'this' keyword refers to the current object. This line takes the 'id' passed into the constructor and assigns it to the object's internal 'id' variable.
         this.id = id;
         // Assigns the passed 'fullname' parameter to the object's internal 'fullname' variable.
-        this.fullname = fullname
+        this.fullname = fullname;
         this.email = email;;// Assigns the passed 'email' parameter to the object's internal 'email' variable.
         this.password = password;// Assigns the passed 'password' parameter to the object's internal 'password' variable.
         this.role = role;// Assigns the passed 'role' parameter to the object's internal 'role' variable.
