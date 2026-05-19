@@ -1,0 +1,5 @@
+ADMIN|Brian|brian@gmail.com|Brian@1234|||
+STUDENT|Brian|briansadeesha@gmail.com|Brian1234|it25103690|Data science|0.0
+STUDENT|Ridmq|ridma@gmail.com|ridma|1234|Data science|0.0
+STUDENT|shihaz|bathilaranathunga@gmail.com|1234@bh|||0.0
+STUDENT|Vidu|Vidu@gmail.com|Vidu1234|IT1234567|Data science|0.0
